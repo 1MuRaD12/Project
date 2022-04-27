@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+
+    .row {
+        display: flex;
+
+        .col-lg-6 {
+
+            width: calc(100% * 1/2);
+            background-color: rgb(44, 62, 80);
+
+            a {
+
+                color: white;
+                text-decoration: none;
+            }
+
+            h2 {
+                margin-right: 100px;
+                padding: 20px;
+                text-align: center;
+            }
+
+            .title {
+                padding: 20px;
+                display: flex;
+                justify-content: space-around;
+            }
+
+        }
+    }
+}
+
+.container1 {
+
+    .row1 {
+        background-color: rgb(13, 138, 138);
+
+        .col-lg-12 {
+            width: 100%;
+
+            img {
+                border-radius: 120px;
+                margin: 5% 42%;
+                width: 15%;
+
+            }
+
+            .title2 {
+                padding-bottom: 60px;
+                text-align: center;
+                color: white;
+
+                h1 {
+                    margin-bottom: 20px;
+                    font-size: 60px;
+                }
+
+                p {
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+}
+
+.container2 {
+    .row2 {
+        .col-lg-12 {
+            width: 100%;
+
+            h2 {
+                margin: 80px 40%;
+                font-size: 50px;
+                color:  rgb(44, 62, 80);
+            }
+
+            p {
+                margin: 10px 43%;
+                padding-bottom: 10px;
+                color:  rgb(44, 62, 80);
+            }
+        }
+
+        .col-lg-4 {
+            width: calc(100 * 1/3);
+
+            img {
+                margin: 60px;
+                width: 25%;
+                border-radius: 40px;
+
+            }
+        }
+    }
+}
+
+.container3{
+    .row3{
+        background-color: rgb(13, 138, 138);
+        .col-lg-12{
+            text-align: center;
+            width: 100%;
+        
+          color: white;
+          h2{
+            
+              font-size: 50px;
+          }
+          button{
+            background-color: rgb(13, 138, 138);
+             
+              border-radius: 10px solid white;
+              color: white;
+              width: 15%;
+              height: 50px;
+          }
+        }
+        .col-lg-6{
+            color: white;
+            width: calc(100 * 1/2);          
+            display: flex;
+           padding: 30px;
+           span{
+               text-align: center;
+               margin-left: 20%;
+               padding: 5%;
+               font-size: 20px;
+           }
+           p{
+               font-size: 20px;
+               margin-right: 25%;
+               padding: 5%;
+           }
+        }
+    }
+}
